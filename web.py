@@ -22,6 +22,6 @@ for index, todo in enumerate(todos):
         st.experimental_rerun()
 
 
-st.text_input(label="", placeholder="Add new todo ...",
+st.text_input(label="Todo App", label_visibility=False, placeholder="Add new todo ...",
               on_change=add_todo, key="new_todo")
 
